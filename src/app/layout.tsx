@@ -1,8 +1,8 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation'; // Update the import to use 'next/router'
+import { useRouter } from 'next/navigation';
 import { Inter } from 'next/font/google';
-import Cookies from 'js-cookie'; // Import the 'js-cookie' package
+import Cookies from 'js-cookie';
 
 const inter = Inter({ subsets: ['latin'] });
 
